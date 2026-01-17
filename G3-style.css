@@ -45,7 +45,7 @@ header {
   height: 50px;
   font-size: 16px;
 }
-.btn-header:hover{
+.btn-header:hover {
   background-color: rgb(124, 132, 249);
 }
 header img {
@@ -73,9 +73,9 @@ header img {
 .team-info {
   text-align: start;
   display: grid;
-  gap: 20px;
+  gap: 15px;
+  margin-right: 60px;
 }
-
 
 /* Feature section */
 .features {
@@ -83,7 +83,6 @@ header img {
   gap: 50px;
   display: flex;
   margin-left: 20px;
-
 }
 .features-intro {
   margin-bottom: 30px;
@@ -109,7 +108,7 @@ header img {
   margin-bottom: 20px;
   margin-left: 10px;
 }
-.card-1:hover{
+.card-1:hover {
   background-color: #c6dbf5;
 }
 .feature-img {
@@ -117,4 +116,47 @@ header img {
   background-image: url(./images/architect1.png);
   background-repeat: no-repeat;
   background-size: contain;
+  margin-right: 50px;
+}
+/* Some Facts section */
+.fact-title {
+  margin: 50px 35px;
+}
+.fact-title p {
+  font-size: 30px;
+  font-weight: bold;
+}
+.fact-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  
+}
+.fact-card {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.fact-card:hover{
+  background-color:#c6dbf5;
+}
+.fact-icon{
+  width: 25px;
+}
+.fact-number{
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.fact-name{
+  color: #727272;
 }
