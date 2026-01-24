@@ -56,7 +56,7 @@ header {
 .btn-header:hover {
   background-color: rgb(124, 132, 249);
 }
-header img {
+.banner img {
   width: 85%;
   margin-top: 50px;
   margin-left: 60px;
@@ -179,10 +179,11 @@ header img {
   grid-template-columns: repeat(5, 1fr);
   margin-bottom: 20px;
   max-width: 100%;
-  border: 1px solid saddlebrown;
 }
 .companies img {
   filter: grayscale(100%);
+  width: 70%;
+  justify-self: center;
 }
 
 /* footer */
@@ -199,4 +200,37 @@ header img {
   padding-top: 15px;
   color: #424242;
   font-size: 15px;
+}
+
+
+/* Responsive for mobile devices */
+
+@media screen and (max-width: 576px) {
+  .navbar{
+    display: none;
+  }
+  .header{
+    display: none;
+  }
+  .main-team{
+    display: none;
+  }
+  .features{
+    display: none;
+  }
+  .fact-title{
+    display: none;
+  }
+  .fact-container{
+    display: none;
+  }
+  .sponsor-title{
+    display: none;
+  }
+  .companies{
+    display: none;
+  }
+  .footer{
+    display: none;
+  }
 }
